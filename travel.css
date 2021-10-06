@@ -1,0 +1,27 @@
+h1 {
+    font-size: 18px;
+    font-weight: 1300;
+    color: #303030; /* rgb(48, 48, 48) */
+    line-height: 50px;
+}
+
+th{
+    text-align: center;
+    font-size : 16px;
+    font-weight : 600;
+    color:#3333b0;
+}
+
+a, a:visited {  /*또다른 선택자 문법. 링크를 방문한 후에도 색이 그대로*/
+    color:#9811b0;
+    text-decoration : none; /* 밑줄 없애기 */
+    font-weight : 800;
+}
+
+img{
+    width : 100px;
+    /* height : 200px; */
+    /* height : auto;  */
+    /* height를 지정하지 않아도 자동으로 height 값을 기존 이미지의 비율에 맞게 조정함 */
+}
+
